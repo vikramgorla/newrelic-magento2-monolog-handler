@@ -1,0 +1,17 @@
+{
+    "name": "vgorla/newrelic-magento2-monolog-handler",
+    "description": "New Relic Magento 2 Monolog Handler",
+    "require": {
+        "php": "^7.0",
+        "magento/framework": "*",
+        "newrelic/monolog-enricher": "^1.0",
+        "vgorla/newrelic-magento2-monolog-processor": "^1.0"
+    },
+
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "unlicense",
+    "autoload": {
+        "files": [ "registration.php" ]
+    }
+}
