@@ -1,7 +1,7 @@
 # New Relic Magento 2 Monolog Handler
 This is an extension of NewRelic PHP Monolog Enricher to Push Magento 2 Logs to New Relic Logs API.
 
-This extension on its own just implements Handler Class, Processor Class is implemented by [vgorla/newrelic-magento2-monolog-handler](https://github.com/vikramgorla/newrelic-magento2-monolog-processor) which can be installed indepdently without Handler if you have any existing log forwarders to send logs to New Relic.
+This extension on its own just implements Handler Class, Processor Class is implemented by [vgorla/newrelic-magento2-monolog-processor](https://github.com/vikramgorla/newrelic-magento2-monolog-processor) which can be installed indepdently without Handler if you have any existing log forwarders to send logs to New Relic.
 Processor extension is infact added as a dependany to this module to exploit logs in context functionality of New Relic logs.
 
 ### Installation
